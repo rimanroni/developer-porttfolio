@@ -202,3 +202,39 @@ font-weight: 400
     box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
     padding: 10px;
  }
+ /* resume section */
+ .resume{
+    padding: 20px;
+ }
+ .resume-title{
+    text-align: center;
+
+ }
+ .resume-container{
+   margin: 20px;
+    display: flex;
+    padding: 10px;
+    gap: 10px;
+ }
+ .resume-card{
+    padding: 10px;
+ }
+ .resume-card h1{
+    margin: 10px;
+ }
+ .resume-card h4{
+    margin: 10px;
+    font-size: 17px;
+  
+    font-weight: 600;
+ }
+ .resume-card p{
+    margin: 10px;
+ }
+ .my-title{
+    margin: 10px;
+    font-size: 20px;
+    
+    font-weight: 700;
+    padding: 10px;
+ }
