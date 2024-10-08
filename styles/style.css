@@ -1,0 +1,132 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 20px;
+  background: #fff8f3;
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.logo {
+  font-size: 45px;
+  font-weight: 800;
+  text-decoration: none;
+  color: black;
+}
+.logo .r {
+  color: #fd6e0a;
+}
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+nav ul li {
+  list-style: none;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+}
+nav ul button {
+  border-radius: 5px;
+  background: #fd6e0a;
+  border: none;
+  padding: 10px 20px 10px 20px;
+  color: white;
+  font-size: 17px;
+  font-style: normal;
+  font-weight: 700;
+}
+/* hero section  */
+.hero {
+  background: #fff8f3;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 30px;
+  padding-left: 56px;
+  background-image: url("/images/header_bg.png"), url("/images/developer.png");
+  background-size: contain;
+  background-position: right bottom, left top;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+}
+.hero div img {
+  width: 100%;
+  position: relative;
+  top: 5px;
+}
+.hero-content {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.hero-content h4 {
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 600;
+}
+.hero-content h1 {
+  font-size: 85px;
+  font-style: normal;
+  font-weight: 700;
+}
+.hero-content p{
+    font-size: 18px;
+font-style: normal;
+font-weight: 400;
+width: 600px;
+}
+.hero-content .btnone{
+   display: inline-block;
+   width: 200px;
+height: 64px;
+border-radius: 5px;
+background: #FD6E0A;
+color: #FFF;
+text-align: center;
+ 
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+ border: none;
+ 
+}
+.hero-content .btntwo{
+   display: inline-block;
+   width: 200px;
+height: 64px;
+border-radius: 5px;
+color:  #FD6E0A;
+text-align: center;
+ 
+font-size: 17px;
+font-style: normal;
+font-weight: 700;
+ margin-left: 10px;
+border: none;
+background-color: #FFF8F3;;
+ }
+ .btnone   svg{
+    
+    position: relative;
+    top: 5px;
+ }
+ .btntwo svg{
+    position: relative;
+    top: 5px;
+    right: 5px;
+ }
+ 
